@@ -13,6 +13,10 @@ public class VoitureTest {
         System.out.println(v1.getPrix());
         assertEquals(v1.getMarque(),"Audi");
         assertEquals(v1.getPrix(),25000.5);
+        v1.setPrix(28000.5);
+        v1.setMarque("Ferrari");
+        assertEquals(v1.getMarque(),"Ferrari");
+        assertEquals(v1.getPrix(),28000.5);
 
 
     }
